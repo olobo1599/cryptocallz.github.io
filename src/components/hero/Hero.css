@@ -1,0 +1,48 @@
+.hero__container
+{
+    /* background: green; */
+    height: 96vh;
+    width: 100%;
+    z-index: 99;
+    /* place-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 7rem;
+}
+
+.text__content
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+    gap: 30px;
+    /* background: greenyellow; */
+}
+
+.title
+{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.sub
+{
+    color: rgb(211, 161, 223);
+    font-size: large;
+    text-align: center;
+}
+
+.buttons
+{
+    background: transparent;
+    display: flex;
+    gap: 10px;
+    border: none;
+}

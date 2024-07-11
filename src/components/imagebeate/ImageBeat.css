@@ -1,0 +1,40 @@
+.home_img
+{
+    height: 360px;
+    width: 460px;
+    border-radius: 19px;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+img 
+{
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+}
+
+.home_img:hover img 
+{
+    width: 105%;
+    height: 110%;
+}
+
+.image
+{
+    /* position: absolute; */
+    filter: sepia(1.8);
+}
+
+@media screen and (max-width: 600px) {
+    
+    .home_img
+    {
+        width: 260px;
+    }
+
+    .home_img:hover .image
+    {
+        height: 105%;
+    }
+}

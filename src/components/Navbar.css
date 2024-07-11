@@ -1,0 +1,29 @@
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background: rgb(95, 59, 166);
+    box-shadow: 5px 0px 15px rgb(91, 2, 113);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar__container
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__logo
+{
+    background: linear-gradient(to left, rgb(136, 0, 255), rgb(230, 219, 219));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

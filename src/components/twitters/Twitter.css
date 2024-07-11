@@ -1,0 +1,10 @@
+.nav_list
+{
+    list-style: none;
+}
+
+.nav__items
+{
+    display: inline;
+    padding: 12px;
+}
